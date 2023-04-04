@@ -5,10 +5,10 @@ Files-Excluded:
 
 Files: *
 Copyright: 2023 Uwe Steinmann <steinm@debian.org>
-License: GPL3
+License: GPL-3+
 
 Files: debian/*
 Copyright: 2023 Uwe Steinmann <steinm@debian.org>
-License: GPL3
+License: GPL-3+
 Comment: Debian packaging is licensed under the same terms as upstream
 
