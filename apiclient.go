@@ -184,7 +184,7 @@ func (c *Client) sendRequest(req *http.Request, target interface{}) error {
             return fmt.Errorf(errRes.Message)
         }
 
-        return fmt.Errorf("unknown error, status code: %d", res.StatusCode)
+        return fmt.Errorf("%d, %s", res.StatusCode, errRes.Message)
     }
 
     if false {
