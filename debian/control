@@ -1,0 +1,25 @@
+Source: golang-seeddms-seeddms-apiclient
+Section: devel
+Priority: optional
+Maintainer: Uwe Steinmann <steinm@debian.org>
+Uploaders: Uwe Steinmann <steinm@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any (>= 1.16),
+							 golang-github-stretchr-testify-dev
+Standards-Version: 4.5.0
+Homepage: https://www.seedddms.org/seeddms/apiclient
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-rs-xid
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-rs-xid.git
+XS-Go-Import-Path: seeddms.org/seeddms/apiclient
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-seeddms-seeddms-apiclient-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: Client for accessing seeddms api
+ This package contains a client for accessing the seeddms api.
+ It includes all operations provided by the api, e.g. downloading
+ and uploading of documents, getting document or folder information,
+ etc.

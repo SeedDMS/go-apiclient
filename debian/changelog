@@ -1,0 +1,11 @@
+golang-seeddms-seeddms-apiclient (0.0.2-1) unstable; urgency=medium
+
+  * New upstream (better testing)
+
+ -- Uwe Steinmann <steinm@debian.org>  Wed, 22 Mar 2023 16:27:44 +0100
+
+golang-seeddms-seeddms-apiclient (0.0.1-1) unstable; urgency=medium
+
+  * First Debian release.
+
+ -- Uwe Steinmann <steinm@debian.org>  Tue, 11 Jan 2022 16:27:44 +0100
