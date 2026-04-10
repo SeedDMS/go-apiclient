@@ -4,7 +4,7 @@ Source: https://github.com/SeedDMS/go-apiclient
 Files-Excluded:
 
 Files: *
-Copyright: 2023 Uwe Steinmann <steinm@debian.org>
+Copyright: 2023-2026 Uwe Steinmann <steinm@debian.org>
 License: GPL-3+
 
 Files: debian/*
