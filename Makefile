@@ -1,5 +1,5 @@
 PKGNAME=golang-seeddms-seeddms-apiclient
-VERSION=0.0.2
+VERSION=0.0.3
 
 test:
 	go test -v .
