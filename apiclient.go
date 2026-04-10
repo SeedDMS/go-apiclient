@@ -99,6 +99,15 @@ type Statstotal struct {
     Docstotal int
     Folderstotal int
     Userstotal int
+    Groupstotal int
+    Categoriestotal int
+}
+
+type Version struct {
+    Major int
+    Minor int
+    Subminor int
+    Version string
 }
 
 type errorResponse struct {
